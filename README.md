@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Astro Yoga Session
 
-## Getting Started
+## Описание
 
-First, run the development server:
+В этом проекте я работал с библиотекой shadcn, добавив модальное окно, которое открывается при нажатии на одну из трех кнопок. Также я улучшил адаптивность сайта с помощью Tailwind CSS, обеспечив его корректное отображение на различных размерах экранов. Исходная верстка была готова заранее. В процессе работы я получил опыт чтения готового кода, а также изучил использование пропсов, хуков `useState` и типов в **TypeScript**.
+
+## Технологии
+
+- React
+- shadcn
+- Tailwind CSS
+- Typescript
+
+## Установка
+
+**Следуйте этим шагам, чтобы установить и запустить проект:**
+
+1. Клонируйте репозиторий локально:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ git clone https://github.com/leevkrasnov/astro-yoga-session.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Установите зависимости:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+$ npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Запустите приложение:
 
-## Learn More
+```bash
+$ npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Развертывание
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Этот проект можно легко развернуть на Vercel с помощью автоматической интеграции. Следуйте этим шагам:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Перейдите на сайт [Vercel](https://vercel.com/) и войдите в свой аккаунт или создайте новый.
+Нажмите на кнопку **"Import Project"** на главной странице.
+Выберите ваш репозиторий с проектом из списка.
+Нажмите **"Deploy"** для автоматического развертывания приложения.
+После успешного развертывания вы получите URL для доступа к вашему приложению. Vercel автоматически настроит развертывание, и вам не придется создавать новый проект вручную.

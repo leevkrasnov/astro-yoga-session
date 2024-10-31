@@ -1,11 +1,15 @@
+'use client';
+
 import AstroYogaSection from '../components/astro-yoga-section';
-import BusinessConsultationPage from '../components/business-consultation-modal';
+import BusinessConsultationModal from '../components/business-consultation-modal';
+import { useState } from 'react';
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <>
       <AstroYogaSection />
-      <BusinessConsultationPage />
+      <BusinessConsultationModal isOpen={isOpen} setIsOpen={setIsOpen} />
     </>
   );
 }
